@@ -1,5 +1,5 @@
 <div align="center">
-  # IbmWaston
+  <h1>IbmWaston</h1>
   <br>
    <img src="visualAnalyze.png" width="200">
   <br>
