@@ -1,1 +1,3 @@
 # IbmWaston
+
+![Image](visualAnalyze.png)
