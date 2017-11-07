@@ -1,6 +1,9 @@
-# IbmWaston
-
-![Image](visualAnalyze.png)
+<div align="center">
+  <h1 style="border:none">IbmWaston</h1>
+  <br>
+   <img src="visualAnalyze.png" width="200">
+  <br>
+</div>
 
 ## Summary
 - IbmWaston App is a Swift application with an iOS front end and a python flask back end. You can use this app to analyze the objects in your camera view in real time and recognize people's emotion and facial expression if a human face is detected.
