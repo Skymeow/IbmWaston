@@ -12,7 +12,78 @@
 		F91DA3411FB0E2A900D349E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91DA33F1FB0E2A900D349E7 /* Main.storyboard */; };
 		F91DA3431FB0E2A900D349E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91DA3421FB0E2A900D349E7 /* Assets.xcassets */; };
 		F91DA3461FB0E2A900D349E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91DA3441FB0E2A900D349E7 /* LaunchScreen.storyboard */; };
+		F91DA3771FB139BC00D349E7 /* AlchemyLanguageV1.framework in Resources */ = {isa = PBXBuildFile; fileRef = F91DA3551FB137F500D349E7 /* AlchemyLanguageV1.framework */; };
+		F91DA3781FB14DF400D349E7 /* AlchemyDataNewsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3511FB137F400D349E7 /* AlchemyDataNewsV1.framework */; };
+		F91DA3791FB14DF400D349E7 /* AlchemyDataNewsV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3511FB137F400D349E7 /* AlchemyDataNewsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA37A1FB14DF400D349E7 /* AlchemyLanguageV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3551FB137F500D349E7 /* AlchemyLanguageV1.framework */; };
+		F91DA37B1FB14DF400D349E7 /* AlchemyLanguageV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3551FB137F500D349E7 /* AlchemyLanguageV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA37C1FB14DF400D349E7 /* AlchemyVisionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3521FB137F400D349E7 /* AlchemyVisionV1.framework */; };
+		F91DA37D1FB14DF400D349E7 /* AlchemyVisionV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3521FB137F400D349E7 /* AlchemyVisionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA37E1FB14DF400D349E7 /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3571FB1380800D349E7 /* ConversationV1.framework */; };
+		F91DA37F1FB14DF400D349E7 /* ConversationV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3571FB1380800D349E7 /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3801FB14DF400D349E7 /* DialogV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA35B1FB1382200D349E7 /* DialogV1.framework */; };
+		F91DA3811FB14DF400D349E7 /* DialogV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA35B1FB1382200D349E7 /* DialogV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3821FB14DF400D349E7 /* DiscoveryV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3591FB1382200D349E7 /* DiscoveryV1.framework */; };
+		F91DA3831FB14DF400D349E7 /* DiscoveryV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3591FB1382200D349E7 /* DiscoveryV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3841FB14DF400D349E7 /* DocumentConversionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA35E1FB1382300D349E7 /* DocumentConversionV1.framework */; };
+		F91DA3851FB14DF400D349E7 /* DocumentConversionV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA35E1FB1382300D349E7 /* DocumentConversionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3861FB14DF400D349E7 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA36A1FB1384200D349E7 /* LanguageTranslatorV2.framework */; };
+		F91DA3871FB14DF400D349E7 /* LanguageTranslatorV2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA36A1FB1384200D349E7 /* LanguageTranslatorV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3881FB14DF400D349E7 /* NaturalLanguageClassifierV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3691FB1384200D349E7 /* NaturalLanguageClassifierV1.framework */; };
+		F91DA3891FB14DF400D349E7 /* NaturalLanguageClassifierV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3691FB1384200D349E7 /* NaturalLanguageClassifierV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA38A1FB14DF400D349E7 /* NaturalLanguageUnderstandingV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3661FB1384200D349E7 /* NaturalLanguageUnderstandingV1.framework */; };
+		F91DA38B1FB14DF400D349E7 /* NaturalLanguageUnderstandingV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3661FB1384200D349E7 /* NaturalLanguageUnderstandingV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA38C1FB14DF400D349E7 /* PersonalityInsightsV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA36D1FB1384300D349E7 /* PersonalityInsightsV2.framework */; };
+		F91DA38D1FB14DF400D349E7 /* PersonalityInsightsV2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA36D1FB1384300D349E7 /* PersonalityInsightsV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA38E1FB14DF400D349E7 /* PersonalityInsightsV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3631FB1384100D349E7 /* PersonalityInsightsV3.framework */; };
+		F91DA38F1FB14DF400D349E7 /* PersonalityInsightsV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3631FB1384100D349E7 /* PersonalityInsightsV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3901FB14DF400D349E7 /* RelationshipExtractionV1Beta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3701FB1384400D349E7 /* RelationshipExtractionV1Beta.framework */; };
+		F91DA3911FB14DF400D349E7 /* RelationshipExtractionV1Beta.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3701FB1384400D349E7 /* RelationshipExtractionV1Beta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3921FB14DF400D349E7 /* RetrieveAndRankV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3721FB1384500D349E7 /* RetrieveAndRankV1.framework */; };
+		F91DA3931FB14DF400D349E7 /* RetrieveAndRankV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3721FB1384500D349E7 /* RetrieveAndRankV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3941FB14DF400D349E7 /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3651FB1384100D349E7 /* SpeechToTextV1.framework */; };
+		F91DA3951FB14DF400D349E7 /* SpeechToTextV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3651FB1384100D349E7 /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3961FB14DF400D349E7 /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3681FB1384200D349E7 /* TextToSpeechV1.framework */; };
+		F91DA3971FB14DF400D349E7 /* TextToSpeechV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3681FB1384200D349E7 /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA3981FB14DF400D349E7 /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA35F1FB1384000D349E7 /* ToneAnalyzerV3.framework */; };
+		F91DA3991FB14DF400D349E7 /* ToneAnalyzerV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA35F1FB1384000D349E7 /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA39A1FB14DF400D349E7 /* TradeoffAnalyticsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3761FB1384500D349E7 /* TradeoffAnalyticsV1.framework */; };
+		F91DA39B1FB14DF400D349E7 /* TradeoffAnalyticsV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3761FB1384500D349E7 /* TradeoffAnalyticsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F91DA39C1FB14DF500D349E7 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3601FB1384100D349E7 /* VisualRecognitionV3.framework */; };
+		F91DA39D1FB14DF500D349E7 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F91DA3601FB1384100D349E7 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F91DA39E1FB14DF500D349E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F91DA3991FB14DF400D349E7 /* ToneAnalyzerV3.framework in Embed Frameworks */,
+				F91DA39D1FB14DF500D349E7 /* VisualRecognitionV3.framework in Embed Frameworks */,
+				F91DA3871FB14DF400D349E7 /* LanguageTranslatorV2.framework in Embed Frameworks */,
+				F91DA37D1FB14DF400D349E7 /* AlchemyVisionV1.framework in Embed Frameworks */,
+				F91DA3911FB14DF400D349E7 /* RelationshipExtractionV1Beta.framework in Embed Frameworks */,
+				F91DA3791FB14DF400D349E7 /* AlchemyDataNewsV1.framework in Embed Frameworks */,
+				F91DA3811FB14DF400D349E7 /* DialogV1.framework in Embed Frameworks */,
+				F91DA37F1FB14DF400D349E7 /* ConversationV1.framework in Embed Frameworks */,
+				F91DA3851FB14DF400D349E7 /* DocumentConversionV1.framework in Embed Frameworks */,
+				F91DA38B1FB14DF400D349E7 /* NaturalLanguageUnderstandingV1.framework in Embed Frameworks */,
+				F91DA38D1FB14DF400D349E7 /* PersonalityInsightsV2.framework in Embed Frameworks */,
+				F91DA3831FB14DF400D349E7 /* DiscoveryV1.framework in Embed Frameworks */,
+				F91DA39B1FB14DF400D349E7 /* TradeoffAnalyticsV1.framework in Embed Frameworks */,
+				F91DA37B1FB14DF400D349E7 /* AlchemyLanguageV1.framework in Embed Frameworks */,
+				F91DA3971FB14DF400D349E7 /* TextToSpeechV1.framework in Embed Frameworks */,
+				F91DA3951FB14DF400D349E7 /* SpeechToTextV1.framework in Embed Frameworks */,
+				F91DA3891FB14DF400D349E7 /* NaturalLanguageClassifierV1.framework in Embed Frameworks */,
+				F91DA38F1FB14DF400D349E7 /* PersonalityInsightsV3.framework in Embed Frameworks */,
+				F91DA3931FB14DF400D349E7 /* RetrieveAndRankV1.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F91DA3381FB0E2A900D349E7 /* IBMWaston.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBMWaston.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +93,25 @@
 		F91DA3421FB0E2A900D349E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F91DA3451FB0E2A900D349E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F91DA3471FB0E2A900D349E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91DA3511FB137F400D349E7 /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3521FB137F400D349E7 /* AlchemyVisionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyVisionV1.framework; path = Carthage/Build/iOS/AlchemyVisionV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3551FB137F500D349E7 /* AlchemyLanguageV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyLanguageV1.framework; path = Carthage/Build/iOS/AlchemyLanguageV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3571FB1380800D349E7 /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3591FB1382200D349E7 /* DiscoveryV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscoveryV1.framework; path = Carthage/Build/iOS/DiscoveryV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA35B1FB1382200D349E7 /* DialogV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DialogV1.framework; path = Carthage/Build/iOS/DialogV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA35E1FB1382300D349E7 /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA35F1FB1384000D349E7 /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3601FB1384100D349E7 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3631FB1384100D349E7 /* PersonalityInsightsV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersonalityInsightsV3.framework; path = Carthage/Build/iOS/PersonalityInsightsV3.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3651FB1384100D349E7 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3661FB1384200D349E7 /* NaturalLanguageUnderstandingV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageUnderstandingV1.framework; path = Carthage/Build/iOS/NaturalLanguageUnderstandingV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3681FB1384200D349E7 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3691FB1384200D349E7 /* NaturalLanguageClassifierV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageClassifierV1.framework; path = Carthage/Build/iOS/NaturalLanguageClassifierV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA36A1FB1384200D349E7 /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = SOURCE_ROOT; };
+		F91DA36D1FB1384300D349E7 /* PersonalityInsightsV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersonalityInsightsV2.framework; path = Carthage/Build/iOS/PersonalityInsightsV2.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3701FB1384400D349E7 /* RelationshipExtractionV1Beta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelationshipExtractionV1Beta.framework; path = Carthage/Build/iOS/RelationshipExtractionV1Beta.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3721FB1384500D349E7 /* RetrieveAndRankV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RetrieveAndRankV1.framework; path = Carthage/Build/iOS/RetrieveAndRankV1.framework; sourceTree = SOURCE_ROOT; };
+		F91DA3761FB1384500D349E7 /* TradeoffAnalyticsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradeoffAnalyticsV1.framework; path = Carthage/Build/iOS/TradeoffAnalyticsV1.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +119,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91DA3981FB14DF400D349E7 /* ToneAnalyzerV3.framework in Frameworks */,
+				F91DA39C1FB14DF500D349E7 /* VisualRecognitionV3.framework in Frameworks */,
+				F91DA3861FB14DF400D349E7 /* LanguageTranslatorV2.framework in Frameworks */,
+				F91DA37C1FB14DF400D349E7 /* AlchemyVisionV1.framework in Frameworks */,
+				F91DA3901FB14DF400D349E7 /* RelationshipExtractionV1Beta.framework in Frameworks */,
+				F91DA3781FB14DF400D349E7 /* AlchemyDataNewsV1.framework in Frameworks */,
+				F91DA3801FB14DF400D349E7 /* DialogV1.framework in Frameworks */,
+				F91DA37E1FB14DF400D349E7 /* ConversationV1.framework in Frameworks */,
+				F91DA3841FB14DF400D349E7 /* DocumentConversionV1.framework in Frameworks */,
+				F91DA38A1FB14DF400D349E7 /* NaturalLanguageUnderstandingV1.framework in Frameworks */,
+				F91DA38C1FB14DF400D349E7 /* PersonalityInsightsV2.framework in Frameworks */,
+				F91DA3821FB14DF400D349E7 /* DiscoveryV1.framework in Frameworks */,
+				F91DA39A1FB14DF400D349E7 /* TradeoffAnalyticsV1.framework in Frameworks */,
+				F91DA37A1FB14DF400D349E7 /* AlchemyLanguageV1.framework in Frameworks */,
+				F91DA3961FB14DF400D349E7 /* TextToSpeechV1.framework in Frameworks */,
+				F91DA3941FB14DF400D349E7 /* SpeechToTextV1.framework in Frameworks */,
+				F91DA3881FB14DF400D349E7 /* NaturalLanguageClassifierV1.framework in Frameworks */,
+				F91DA38E1FB14DF400D349E7 /* PersonalityInsightsV3.framework in Frameworks */,
+				F91DA3921FB14DF400D349E7 /* RetrieveAndRankV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +163,7 @@
 		F91DA33A1FB0E2A900D349E7 /* IBMWaston */ = {
 			isa = PBXGroup;
 			children = (
+				F91DA34D1FB11F4700D349E7 /* Frameworks */,
 				F91DA33B1FB0E2A900D349E7 /* AppDelegate.swift */,
 				F91DA33D1FB0E2A900D349E7 /* ViewController.swift */,
 				F91DA33F1FB0E2A900D349E7 /* Main.storyboard */,
@@ -62,6 +172,32 @@
 				F91DA3471FB0E2A900D349E7 /* Info.plist */,
 			);
 			path = IBMWaston;
+			sourceTree = "<group>";
+		};
+		F91DA34D1FB11F4700D349E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91DA3511FB137F400D349E7 /* AlchemyDataNewsV1.framework */,
+				F91DA3551FB137F500D349E7 /* AlchemyLanguageV1.framework */,
+				F91DA3521FB137F400D349E7 /* AlchemyVisionV1.framework */,
+				F91DA3571FB1380800D349E7 /* ConversationV1.framework */,
+				F91DA35B1FB1382200D349E7 /* DialogV1.framework */,
+				F91DA3591FB1382200D349E7 /* DiscoveryV1.framework */,
+				F91DA35E1FB1382300D349E7 /* DocumentConversionV1.framework */,
+				F91DA36A1FB1384200D349E7 /* LanguageTranslatorV2.framework */,
+				F91DA3691FB1384200D349E7 /* NaturalLanguageClassifierV1.framework */,
+				F91DA3661FB1384200D349E7 /* NaturalLanguageUnderstandingV1.framework */,
+				F91DA36D1FB1384300D349E7 /* PersonalityInsightsV2.framework */,
+				F91DA3631FB1384100D349E7 /* PersonalityInsightsV3.framework */,
+				F91DA3701FB1384400D349E7 /* RelationshipExtractionV1Beta.framework */,
+				F91DA3721FB1384500D349E7 /* RetrieveAndRankV1.framework */,
+				F91DA3651FB1384100D349E7 /* SpeechToTextV1.framework */,
+				F91DA3681FB1384200D349E7 /* TextToSpeechV1.framework */,
+				F91DA35F1FB1384000D349E7 /* ToneAnalyzerV3.framework */,
+				F91DA3761FB1384500D349E7 /* TradeoffAnalyticsV1.framework */,
+				F91DA3601FB1384100D349E7 /* VisualRecognitionV3.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +210,7 @@
 				F91DA3341FB0E2A900D349E7 /* Sources */,
 				F91DA3351FB0E2A900D349E7 /* Frameworks */,
 				F91DA3361FB0E2A900D349E7 /* Resources */,
+				F91DA39E1FB14DF500D349E7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91DA3771FB139BC00D349E7 /* AlchemyLanguageV1.framework in Resources */,
 				F91DA3461FB0E2A900D349E7 /* LaunchScreen.storyboard in Resources */,
 				F91DA3431FB0E2A900D349E7 /* Assets.xcassets in Resources */,
 				F91DA3411FB0E2A900D349E7 /* Main.storyboard in Resources */,
@@ -276,6 +414,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CL75PM5U8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IBMWaston/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sky.IBMWaston;
@@ -291,6 +433,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CL75PM5U8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IBMWaston/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sky.IBMWaston;
